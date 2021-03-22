@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.time.Year;
 import java.util.Date;
 
-public class Movie extends CatalogItem{
+public class Song extends CatalogItem{
     private String path;
 
-    public Movie(String path, Year releaseYear) throws IOException {
+    public Song(String path, Year releaseYear) throws IOException {
         super(path, releaseYear);
         this.path = path;
     }
